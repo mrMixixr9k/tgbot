@@ -7,4 +7,4 @@ def main(page: ft.Page):
     page.add(btn)
     page.update()
     
-ft.app(target=main, view=ft.WEB_BROWSER)
+ft.app(target=main)
