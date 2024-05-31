@@ -1,1 +1,1 @@
-pip install flet
+pip install -r requirements.txt
