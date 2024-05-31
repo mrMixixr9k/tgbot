@@ -4,4 +4,4 @@ def main(page: ft.Page):
     page.title = "My Flet app"
     page.add(ft.Text("Hello, world!"))
 
-ft.app(target=main, view=None, port=80)
+ft.app(target=main)
