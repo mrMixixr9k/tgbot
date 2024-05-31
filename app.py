@@ -1,10 +1,8 @@
 import flet as ft
 
 def main(page: ft.Page):
-    page.theme_mode = 'dark'
-    page.title = 'Cactus Clicker'
-    btn = ft.TextButton(text="Button")
-    page.add(btn)
-    page.update()
-    
-ft.app(target=main)
+    page.title = "My Flet app"
+    page.add(ft.Text("Hello, world!"))
+
+if __name__ == "__main__":
+    ft.app(main)
