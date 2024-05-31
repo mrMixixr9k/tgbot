@@ -6,5 +6,5 @@ def main(page: ft.Page):
     btn = ft.TextButton(text="Button")
     page.add(btn)
     page.update()
-
-
+    
+ft.app(target=main, view=ft.WEB_BROWSER)
